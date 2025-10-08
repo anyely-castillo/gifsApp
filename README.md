@@ -1,69 +1,26 @@
-# React + TypeScript + Vite
+# Gifs Search App with React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[@anyelycastillo.es](https://anyelycastillo.es/)
+[@instagram](https://www.instagram.com/arq.castilloaa/?hl=es)
+[@linkedin](https://www.linkedin.com/in/anyely-castillo-duarte)
 
-Currently, two official plugins are available:
+## About this Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React practice using its hooks and API requests to create a GIF website
 
-## Expanding the ESLint configuration
+### _If you leave me some constructive feedback or a star ⭐, I would appreciate it._
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```sh
+> Click on the image !
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+[![img](./public/gifApp.jpg)](https://gifsapp-web.netlify.app/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## About me
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+I have +1 year of experience as a frontend developer, here you will find projects made with different tools and designs for an optimal user interface.
+
+## Curriculum and Certificates
+
+- https://padlet.com/anyelycastillo25/curr-culum-vitae-4s54c26zztjns9vb
+- https://padlet.com/anyelycastillo25/t-tulos-acad-micos-certificados-9yfv6hofm7x6bcnt
